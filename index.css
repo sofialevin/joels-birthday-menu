@@ -12,6 +12,7 @@ body {
 h1 {
   font-family: 'Parisienne', cursive;
   font-size: 45px;
+  margin: 25px;
 }
 
 h2 {
@@ -74,7 +75,7 @@ ul:last-child {
   }
   .innertext::before,
   .innertext::after {
-    width: 35%;
+    width: 30%;
   }
 }
   
