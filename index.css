@@ -2,6 +2,10 @@ body {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
 }
 
 h1 {
@@ -32,17 +36,16 @@ ul:last-child {
   font-size: 20px;
 }
 
-.main {
+.menu {
   display: flex;
   max-width: 700px;
   flex-direction: column;
-  justify-content: center;
   margin: 10px auto;
   padding: 16px;
   position: relative;
 }
 
-.main::after {
+.menu::after {
   content: '';
   display: block;
   position: absolute;
@@ -65,7 +68,7 @@ ul:last-child {
 }
 
 @media (max-width: 700px) {
-  .main::after {
+  .menu::after {
     border: none;
   }
   .innertext::before,
