@@ -36,6 +36,7 @@ ul:last-child {
   display: flex;
   max-width: 700px;
   flex-direction: column;
+  justify-content: center;
   margin: 10px auto;
   padding: 16px;
   position: relative;
